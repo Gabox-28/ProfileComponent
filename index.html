@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
   
-  <title>Frontend Mentor | Profile card component</title>
+  <title>Profile card component | Gabriel Mayorga</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,21 +21,45 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+<main class="main-container">
+  <section class="card">
+    <div class="top-card">
+      <img src="./images/bg-pattern-card.svg" alt="Card top pattern">
+    </div>
+    <div class="person">
+      <img src="./images/image-victor.jpg" alt="Victor picture">
+      <div class="name-age">
+        <span class="name">Victor Crest</span>
+        <span class="age">26</span>
+      </div>
+      <div class="country">
+        <span>London</span>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="data-item">
+        <span class="data">80k</span>
+        <span class="data-name">Followers</span>
+      </div>
+      <div class="data-item">
+        <span class="data">803k</span>
+        <span class="data-name">Likes</span>
+      </div>
+      <div class="data-item">
+        <span class="data">1.4k</span>
+        <span class="data-name">Photos</span>
+      </div>
+    </div>
+  </section>
 
-  803K
-  Likes
+  <img class="pattern-top" src="./images/bg-pattern-top.svg" alt="Pattern top">
+  <img class="pattern-bot" src="./images/bg-pattern-bottom.svg" alt="Pattern bot">
+</main>
 
-  1.4K
-  Photos
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://gabrielmayorga.com/">Gabriel Mayorga</a>.
+  </footer>
 </body>
 </html>
